@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "copy": "xcopy out\\* . /E /I && rimraf out",
+    "copy": "xcopy out\\* . /E /I /Y && rimraf out",
     "deploy": "npm run build && npm run copy" 
   },
   "dependencies": {
